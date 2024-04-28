@@ -1,0 +1,70 @@
+.body{
+    background-image: url(./images/pexels-pixabay-259962.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#logo{
+    width: 150px;
+    height: 75px;
+    float: left;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.navbar >.a {
+    justify-content: space-between;
+    margin-left: 200px;
+}
+
+.navbar > .a > a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+.navbar >.a > a:hover{
+    text-decoration: underline;
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12%;
+    color: black;
+    font-size: 35px;
+}
+.three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.three > p {
+    width: 380px;
+    font-size: larger;
+    font-weight: 100;
+}
+
+.four {
+
+    display: flex;
+    justify-content: center;
+}
+
+#btn1 {
+    margin-right: 20px;
+}
+
+#btn1 ,#btn2{
+    border-radius: 25px;
+    padding: 10px 30px;
+    border-color: black;
+    
+}
